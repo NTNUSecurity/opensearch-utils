@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Subject prefix example: "/C=<2 CHARACATER COUNTRY CODE>/ST=<STATE>/O=<COMPANY NAME WITH SPACES>/OU=<ORGANIZATIONAL UNIT>"
-SUBJECT_PREFIX="/C=NO/ST=Innlandet/O=NTNU/OU=DS"
+SUBJECT_PREFIX=""
 # Certificate expiration in days from today.
-CERTIFICATE_EXPIRE_IN=3650
+CERTIFICATE_EXPIRE_IN=
 # Certificate key size
-CERTIFICATE_KEY_SIZE=4096
+CERTIFICATE_KEY_SIZE=
 
 # Create the needed directories
 mkdir -v -p ADMIN CA
