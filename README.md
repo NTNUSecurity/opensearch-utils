@@ -25,6 +25,11 @@ pip3 install -r requirements.txt
 
 ## Scripts
 
+### TLS/\*
+In the TLS folder, there is a set of scripts which will create certificates using OpenSSL. It will first create a CA certificate and then sign all certificates using that CA. If you have a CA. from before, then you can skip the creation of this, but you will have to look at the script and see how a certificate for the admin user is made.
+
+See [TLS/README.md](TLS/README.md) for specific information about these scripts.
+
 ### scripts/get_stats.py
 Gets information about the OpenSearch cluster and prints it to screen.
 
