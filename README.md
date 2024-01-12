@@ -1,9 +1,21 @@
 # OpenSearch scripts/utils
 
-This repository contains misc. python scripts to help get information
-from OpenSearch or administrate/make changes to OpenSearch.
+This repository contains misc. scripts to help get information from
+OpenSearch or administrate/make changes to OpenSearch.
 
 ## Dependencies
+
+### Packages
+Dependencies can be installed using your disitrbutions package manager.
+The following packages are required to use all of the scripts in this
+repository. However, if only some of them are to be used, you will get
+away with just installing the dependencies those scripts have. What
+those dependencies are, you will have to find out yourself.
+
+- python3
+- openssl
+
+### Python
 Dependencies can be installed with the following command from the root
 directory.
 
